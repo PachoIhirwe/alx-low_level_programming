@@ -19,6 +19,6 @@ int main(void)
 		if (n % 3 != 0 && n % 5 != 0)
 			printf("%d", n);
 	}
-	printf("\n"0;
+	printf("\n");
 			return (0);
 }
