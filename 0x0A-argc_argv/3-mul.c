@@ -19,9 +19,11 @@ int main(int argc, char *argv[])
 	printf("error \n");
 	return (1);
 	}
-		a == atoi(argv[1]);
-		b == atoi(argv[2]);
-		result = a * b;
-		printf("%d\n", result);
+	else
+	{
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		printf("%d\n", a * b);
 		return (0);
+	}
 }
